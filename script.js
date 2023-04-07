@@ -28,6 +28,11 @@
 const secretNumber = Math.floor(Math.random() * 20) + 1;
 let score = 20;
 
+// activating again button that actually act as reload button
+document.querySelector('.again').addEventListener('click', function () {
+  location.reload();
+});
+
 // document.querySelector('.number').textContent = secretNumber;
 
 //we add eventlistener and event handler
