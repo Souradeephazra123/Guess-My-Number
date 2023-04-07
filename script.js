@@ -45,7 +45,7 @@ document.querySelector('.check').addEventListener('click', function () {
   else if (guess === secretNumber) {
     document.querySelector('.message').textContent = '🎉Correct Number!';
     document.querySelector('.number').textContent = secretNumber;
-    document.querySelector('.highscore').value = secretNumber;
+    document.querySelector('.highscore').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = 'green';
   }
 
